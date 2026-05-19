@@ -1,0 +1,58 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Variable files (can contain sensitive data)
+*.tfvars
+*.tfvars.json
+!example.tfvars
+!example.tfvars.json
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.env
+.env.local
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude override files
+override.tf
+override.tf.json
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfvars files are often used to store sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore plan files
+*.tfplan
+
+# Ignore lock files (unless your team prefers to commit them)
+# Uncomment the line below if you want to ignore lock files
+.terraform.lock.hcl
+
+windows_amd64
