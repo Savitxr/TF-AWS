@@ -61,5 +61,5 @@ variable "environment" {
 variable "project_name" {
   type        = string
   description = "Project name prefix for tags and naming resources"
-  default     = "3-tier-learning"
+  default     = "3-tier"
 }
