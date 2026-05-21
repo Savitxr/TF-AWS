@@ -1,4 +1,4 @@
-.git
+.git/
 b-ec2/
 # Terraform files
 *.tfstate
