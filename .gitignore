@@ -1,5 +1,5 @@
 .git/
-# b-ec2/
+b-ec2/
 # Terraform files
 *.tfstate
 *.tfstate.*
