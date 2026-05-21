@@ -1,3 +1,4 @@
+.git
 # Terraform files
 *.tfstate
 *.tfstate.*
