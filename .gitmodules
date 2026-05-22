@@ -1,0 +1,3 @@
+[submodule "Modules/b-ec2"]
+	path = Modules/b-ec2
+	url = https://github.com/Savitxr/terraform-ec2-module.git
