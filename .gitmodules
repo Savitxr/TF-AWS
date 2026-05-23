@@ -1,3 +1,6 @@
 [submodule "Modules/b-ec2"]
 	path = Modules/b-ec2
 	url = https://github.com/Savitxr/terraform-ec2-module.git
+[submodule "Modules/d-alb"]
+	path = Modules/d-alb
+	url = https://github.com/Savitxr/terraform-aws-alb.git
