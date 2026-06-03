@@ -20,7 +20,21 @@ locals {
       name   = "public-subnet-1b"
       public = true
     }
+    private_front_1 = {
+      cidr   = var.private_front_subnet_1_cidr
+      az     = var.availability_zones[0]
+      tier   = "Private-Front"
+      name   = "private-front-subnet-1a"
+      public = false
+    }
 
+    private_front_2 = {
+      cidr   = var.private_front_subnet_2_cidr
+      az     = var.availability_zones[1]
+      tier   = "Private-Front"
+      name   = "private-front-subnet-1b"
+      public = false
+    }
     private_app_1 = {
       cidr   = var.private_app_subnet_1_cidr
       az     = var.availability_zones[0]

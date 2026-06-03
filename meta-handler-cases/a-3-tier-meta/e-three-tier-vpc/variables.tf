@@ -17,15 +17,24 @@ variable "public_subnet_2_cidr" {
   type    = string
   default = "10.0.2.0/24"
 }
-
-variable "private_app_subnet_1_cidr" {
+variable "private_front_subnet_1_cidr" {
   type    = string
   default = "10.0.11.0/24"
 }
 
-variable "private_app_subnet_2_cidr" {
+variable "private_front_subnet_2_cidr" {
   type    = string
   default = "10.0.12.0/24"
+}
+
+variable "private_app_subnet_1_cidr" {
+  type    = string
+  default = "10.0.13.0/24"
+}
+
+variable "private_app_subnet_2_cidr" {
+  type    = string
+  default = "10.0.14.0/24"
 }
 
 variable "private_db_subnet_1_cidr" {
